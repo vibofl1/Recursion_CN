@@ -24,12 +24,7 @@ def partition(arr,s,e):
             arr[i],arr[j]=arr[j],arr[i]
             i+=1
             j-=1 
-    return pivotindex
-            
-            
-            
-        
-    
+    return pivotindex 
  
 def quicksort(arr,s,e) :
     if s>=e:
